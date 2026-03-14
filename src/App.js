@@ -7,6 +7,7 @@ import imgMkj from './assets/banner.png';
 import googlePlayIcon from './assets/google-play.jpg';
 
 import pdf from './assets/app/pdf.png';
+import color from './assets/app/color.png';
 
 
 
@@ -40,7 +41,7 @@ function Header() {
 function HomePage() {
   const apps = [
     { name: 'Spin & Earn Rewards', image: pdf, link: 'https://play.google.com/store/apps/details?id=com.spinwheels.fortunewheel.lucky' },
-//    { name: 'Dual Tele & Chat', image: tele, link: 'https://apps.apple.com/us/app/dual-tele-chat/id6575367066' },
+    { name: 'ColorFlow - Coloring Book', image: color, link: 'https://play.google.com/store/apps/details?id=com.fillcolor.coloringbook.paint.colorart' },
 //    { name: 'Nuts & Bolts - 3D Wood Puzzle', image: nut, link: 'https://apps.apple.com/us/app/nuts-bolts-3d-wood-puzzle/id6590610383' },
 //    { name: 'Alarm Clock - Wake up alarm', image: alarm, link: 'https://apps.apple.com/us/app/alarm-clock-wake-up-alarm/id6504606302' },
 //    { name: 'Flight Tracker - Air Traffic', image: fly, link: 'https://apps.apple.com/us/app/flight-tracker-air-traffic/id6482293615' },
